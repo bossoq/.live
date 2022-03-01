@@ -4,7 +4,7 @@
   import Menu from '$lib/components/Menu.svelte'
   import ThemeSelector from '$lib/components/ThemeSelector.svelte'
   import Modal from '$lib/components/Modal.svelte'
-  import { darkTheme, modalViewed } from '$lib/store'
+  import { darkTheme } from '$lib/store'
 
   const url = 'https://bossoq.live'
   const title = 'bossoq.live'
@@ -20,8 +20,6 @@
 <main class={$darkTheme && 'dark'}>
   <ThemeSelector {themeIcons} />
   <Menu items={menuItems} />
-  {#if $modalViewed}
-    <Modal />
-  {/if}
+  <Modal />
   <slot />
 </main>
