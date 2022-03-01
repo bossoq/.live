@@ -6,15 +6,13 @@
   import Modal from '$lib/components/Modal.svelte'
   import { darkTheme, modalViewed } from '$lib/store'
 
-  const url = 'https://simplesveltekit.vercel.app'
-  const title = 'Simple Sveltekit Template'
-  const description = 'Build a web app with Sveltekit, quickly.'
+  const url = 'https://bossoq.live'
+  const title = 'bossoq.live'
+  const description = "Hello there, I'm bossoq."
 
-  const menuItems = [
-    { name: 'Made by bossoq', url: 'https://github.com/bossoq/simple-sveltekit-template' }
-  ]
+  const menuItems = [{ name: 'Made by bossoq', url: 'https://github.com/bossoq/.live' }]
   const imageUrl = `${url}/screenshot.jpg`
-  const gtagId = null
+  const gtagId = 'G-N0EVPLJVD3'
   const themeIcons = ['🌞 Toggle Light mode', '🌙 Toggle Dark mode']
 </script>
 
