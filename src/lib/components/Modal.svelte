@@ -46,11 +46,11 @@
           <div class="sm:flex sm:items-start">
             <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left dark:text-white">
               <h3 class="text-base leading-6 font-medium text-gray-900 dark:text-white">
-                Simple Sveltekit Template
+                My Home Page (bossoq.live)
               </h3>
               <div class="mt-2">
                 <p class="text-sm text-gray-500 dark:text-gray-300">
-                  Build a web app with Sveltekit, quickly.
+                  A place to share my thoughts and learn about web development.
                 </p>
               </div>
               <hr class="my-2" />
@@ -64,6 +64,7 @@
                       <li>Responsive</li>
                       <li>Toggleable Dark Mode</li>
                       <li>Modal Supported</li>
+                      <li>Add links to resume and github</li>
                     </ul>
                   </div>
                 </div>
