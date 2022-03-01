@@ -1,10 +1,13 @@
 <script lang="ts">
+  import Greeting from '$lib/components/Greeting.svelte'
+  import Tagline from '$lib/components/Tagline.svelte'
+  import Links from '$lib/components/Links.svelte'
 </script>
 
 <div class="w-full h-screen flex flex-col justify-center items-center bg-white dark:bg-black">
-  <h1 class="text-3xl sm:text-6xl flex flex-row text-black dark:text-white">
-    <span>Hello, world! I'm</span>
-    <span class="px-2 font-bold text-teal-800 dark:text-teal-200">bossoq</span>
-    <span class="transition hover:rotate-45 ease-in-out duration-500">👏</span>
-  </h1>
+  <Greeting />
+  <span class="my-4" />
+  <Tagline />
+  <span class="my-4" />
+  <Links />
 </div>
