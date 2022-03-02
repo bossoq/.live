@@ -12,7 +12,7 @@
   <IconButton href="https://resume.bossoq.live"
     ><span class="fill-balck dark:fill-white"><BriefcaseIcon /></span>Résumé</IconButton
   >
-  <IconButton href="#"
+  <IconButton href="/projects"
     ><span class="fill-balck dark:fill-white"><ProjectIcon /></span>Projects</IconButton
   >
 </div>
