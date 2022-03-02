@@ -1,6 +1,6 @@
 <script lang="ts">
-  import IconButton from './IconButton.svelte'
-  import HomeIcon from './HomeIcon.svelte'
+  import IconButton from '$lib/components/IconButton.svelte'
+  import HomeIcon from '$lib/components/Icons/HomeIcon.svelte'
 </script>
 
 <div class="flex flex-col sm:flex-row flex-wrap justify-center font-medium">

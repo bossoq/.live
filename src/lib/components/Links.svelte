@@ -1,8 +1,8 @@
 <script lang="ts">
-  import IconButton from './IconButton.svelte'
-  import GithubIcon from './GithubIcon.svelte'
-  import BriefcaseIcon from './BriefcaseIcon.svelte'
-  import ProjectIcon from './ProjectIcon.svelte'
+  import IconButton from '$lib/components/IconButton.svelte'
+  import GithubIcon from '$lib/components/Icons/GithubIcon.svelte'
+  import BriefcaseIcon from '$lib/components/Icons/BriefcaseIcon.svelte'
+  import ProjectIcon from '$lib/components/Icons/ProjectIcon.svelte'
 </script>
 
 <div class="flex flex-col sm:flex-row flex-wrap justify-center font-medium">

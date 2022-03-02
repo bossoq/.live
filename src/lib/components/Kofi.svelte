@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LibLoader from './LibLoader.svelte'
+  import LibLoader from '$lib/components/LibLoader.svelte'
 
   export let name: string
   export let label = 'Buy me Coffee'
