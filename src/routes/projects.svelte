@@ -4,6 +4,11 @@
 
   const projectsList = [
     {
+      name: 'ODD แ OUT',
+      demo: 'https://odd-aer-out.bossoq.live',
+      github: 'https://github.com/bossoq/odd-aer-out'
+    },
+    {
       name: 'สร้าง คำ เสี่ยว',
       demo: 'https://siewword.bossoq.live',
       github: 'https://github.com/bossoq/siew-generator'
