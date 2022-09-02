@@ -4,6 +4,11 @@
 
   const projectsList = [
     {
+      name: 'Spinner',
+      demo: 'https://spinner.bossoq.live',
+      github: 'https://github.com/bossoq/spinner'
+    },
+    {
       name: 'ODD แ OUT',
       demo: 'https://odd-aer-out.bossoq.live',
       github: 'https://github.com/bossoq/odd-aer-out'
